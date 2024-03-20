@@ -199,14 +199,14 @@
       "netstandard.dll": "sha256-+zXQN9625IUa11YLU5hNoQ04oHjCwFIJAXc8vOEMniU=",
       "System.Private.CoreLib.dll": "sha256-oytzvvuRkpVGZxuLwt9SR8n1KJzGeYroKTHxk0oZvfI=",
       "Novo.Shared.dll": "sha256-1C1srP7uJatrxlUNA964tn8FTM+KYTlW9PQwmg8StDw=",
-      "Novo.Client.dll": "sha256-\/TYVa7U7mtR9\/s1zXTIEeJmBbONNZ3IV7gXkacOX0B4="
+      "Novo.Client.dll": "sha256-XjsTC6mmDMvgtz6QhKuGeV9InsrBg9qzWnTDguIMBdk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Novo.Shared.pdb": "sha256-ieaYKP15dO2mj4I2gR2peLL26vxjfrcNHF35Y4seIE4=",
-      "Novo.Client.pdb": "sha256-M0lfQLAZQxu0V98HYoY0dBKCy8YkPKYgPi9+UPNujis="
+      "Novo.Client.pdb": "sha256-Ag9xNaUlqCy8kQ4VBDnncttdIdlc\/SSFOaP+2JVdYz0="
     },
     "runtime": {
       "dotnet.7.0.13.z7sikgcpy5.js": "sha256-eRbsSkKiWKWKcMiqy13LuLSBIpzmn52qw\/6SX+1jNQ0=",
