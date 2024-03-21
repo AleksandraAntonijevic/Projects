@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Novo.Shared.Models
+﻿namespace Novo.Shared.Models
 {
     public class Category
     {
@@ -14,6 +8,8 @@ namespace Novo.Shared.Models
         public string? Image { get; set; }
         public DateTime? DateCreated { get; set; } = DateTime.Now;
 
+        // Establishing One to many relationship
+        public List<Product>? Products { get; set; }
 
     }
 }

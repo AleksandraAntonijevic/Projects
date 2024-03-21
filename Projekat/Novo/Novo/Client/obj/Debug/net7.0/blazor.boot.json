@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-1LEP8nUca7i3KzI4Zu9AD7rJ8CadngV0YUKjoHGiFxA=",
       "netstandard.dll": "sha256-+zXQN9625IUa11YLU5hNoQ04oHjCwFIJAXc8vOEMniU=",
       "System.Private.CoreLib.dll": "sha256-oytzvvuRkpVGZxuLwt9SR8n1KJzGeYroKTHxk0oZvfI=",
-      "Novo.Shared.dll": "sha256-1C1srP7uJatrxlUNA964tn8FTM+KYTlW9PQwmg8StDw=",
-      "Novo.Client.dll": "sha256-XjsTC6mmDMvgtz6QhKuGeV9InsrBg9qzWnTDguIMBdk="
+      "Novo.Shared.dll": "sha256-ZVV91vedxDIuLp232D5FLdsIet6HVqBC5T3QAZrAH\/M=",
+      "Novo.Client.dll": "sha256-L07qf1eWjbibCsfB5cd4iGijOOUQYqz5GZTTRDEq6ak="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Novo.Shared.pdb": "sha256-ieaYKP15dO2mj4I2gR2peLL26vxjfrcNHF35Y4seIE4=",
-      "Novo.Client.pdb": "sha256-Ag9xNaUlqCy8kQ4VBDnncttdIdlc\/SSFOaP+2JVdYz0="
+      "Novo.Shared.pdb": "sha256-9WuhXQSpQr6WBn2+aGxyc2KdF4WQ0AqOWBZsJz3M1NI=",
+      "Novo.Client.pdb": "sha256-XbrHId\/Goeb+1c6chc8NGVd5xpu79jQMIy+HRkY+cmo="
     },
     "runtime": {
       "dotnet.7.0.13.z7sikgcpy5.js": "sha256-eRbsSkKiWKWKcMiqy13LuLSBIpzmn52qw\/6SX+1jNQ0=",

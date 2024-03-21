@@ -41,5 +41,11 @@ namespace Novo.Client.Services.ImplementationServices
             var result = await httpClient.PutAsJsonAsync("api/Product", NewProduct);
             return await result.Content.ReadFromJsonAsync<ServiceModel<Product>>();
         }
+
+        public async Task<ServiceModel<Product>?> GetProductsByCategory(string url)
+        {
+            var result = await httpClient.GetAsync($"api/Product/category/{url}");
+            return await result.Content.ReadFromJsonAsync<ServiceModel<Product>>();
+        }
     }
 }

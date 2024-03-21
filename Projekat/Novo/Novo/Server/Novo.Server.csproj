@@ -26,5 +26,9 @@
     <ProjectReference Include="..\Shared\Novo.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 
 </Project>

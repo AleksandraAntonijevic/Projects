@@ -10,5 +10,6 @@ namespace Novo.Server.Repositories.Interfaces
         public Task<ServiceModel<Product>> GetProducts();
         public Task<ServiceModel<Product>> GetProduct(int ProductId);
         public Task<ServiceModel<Product>> DeleteProduct(int ProductId);
+        public Task<ServiceModel<Product>> GetProductsByCategory(string url);
     }
 }

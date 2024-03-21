@@ -44,5 +44,12 @@ namespace Novo.Server.Controllers
         {
             return Ok(await productRepo.UpdateProduct(newProduct));
         }
+
+        [HttpGet("category/{url}")]
+        public async Task<ActionResult<ServiceModel<Product>>> GetProduct(string url)
+        {
+            return Ok(await productRepo.GetProductsByCategory(url));
+        }
+
     }
 }

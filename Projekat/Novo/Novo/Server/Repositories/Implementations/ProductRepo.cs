@@ -142,6 +142,50 @@ namespace Novo.Server.Repositories.Implementations
             }
         }
 
+        public async Task<ServiceModel<Product>> GetProductsByCategory(string url)
+        {
+            var Response = new ServiceModel<Product>();
+            if (url != null)
+            {
+                try
+                {
+                    var product = await appDbContext.Products
+                        .Where(p => p.Category!.Url == url.ToLower().Replace(" ", "-")).ToListAsync();
+                    if (product != null)
+                    {
+                        Response.List = product;
+                        Response.Success = true;
+                        Response.Message = "Product found!";
+                        Response.CssClass = "success";
+                        return Response;
+                    }
+                    else
+                    {
+                        Response.Success = false;
+                        Response.Message = "Sorry product you are looking for doesn't exist!";
+                        Response.CssClass = "danger";
+                        Response.Single = null!;
+                        return Response;
+                    }
+
+                }
+                catch (Exception exMessage)
+                {
+                    Response.CssClass = "danger";
+                    Response.Message = exMessage.Message.ToString();
+                    return Response;
+                }
+            }
+            else
+            {
+                Response.Success = false;
+                Response.Message = "Sorry New product object is empty!";
+                Response.CssClass = "warning";
+                Response.Single = null!;
+                return Response;
+            }
+        }
+
         public async Task<ServiceModel<Product>> UpdateProduct(Product NewProduct)
         {
             var response = new ServiceModel<Product>();
@@ -177,5 +221,7 @@ namespace Novo.Server.Repositories.Implementations
             }
             return response;
         }
+
+        
     }
 }
