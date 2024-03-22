@@ -32,12 +32,13 @@
     </main>
 </div>
 
-@code{
+@code {
     int ServiceCountProduct;
     protected override async Task OnInitializedAsync()
     {
         cartService.OnChange += StateHasChanged;
-        ServiceCountProduct = (await localStorageService.GetItemAsync<List<MyCartModel>>("MyCart")).Count();
+        var myCartItems = await localStorageService.GetItemAsync<List<MyCartModel>>("MyCart");
+        ServiceCountProduct = myCartItems != null ? myCartItems.Count : 0;
     }
 
     public void Dispose()
@@ -50,3 +51,4 @@
         navigationManager.NavigateTo("cart");
     }
 }
+

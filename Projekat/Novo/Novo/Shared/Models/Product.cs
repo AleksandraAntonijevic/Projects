@@ -21,7 +21,7 @@ namespace Novo.Shared.Models
         public DateTime UploadedDate { get; set; } = DateTime.Now;
 
         public Category? Category { get; set; }
-        public int CategoryId { get; set; } = 2;
+        public int CategoryId { get; set; } = 6;
 
     }
 }
