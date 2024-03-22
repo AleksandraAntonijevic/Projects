@@ -834,3 +834,7 @@ C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\obj\Debug\net7.0
 C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\obj\Debug\net7.0\refint\Novo.Client.dll
 C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\obj\Debug\net7.0\Novo.Client.pdb
 C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\obj\Debug\net7.0\ref\Novo.Client.dll
+C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Client\obj\Debug\net7.0\build-gz\rwMRUBUc.gz

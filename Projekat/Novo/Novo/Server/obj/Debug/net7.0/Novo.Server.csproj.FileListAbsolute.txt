@@ -101,3 +101,4 @@ C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Server\obj\Debug\net7.0
 C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Server\obj\Debug\net7.0\Novo.Server.pdb
 C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Server\obj\Debug\net7.0\Novo.Server.genruntimeconfig.cache
 C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Server\obj\Debug\net7.0\ref\Novo.Server.dll
+C:\Users\Alex\Documents\GitHub\Blazor\Projekat\Novo\Novo\Server\bin\Debug\net7.0\Blazored.LocalStorage.dll

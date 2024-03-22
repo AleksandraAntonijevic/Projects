@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.LocalStorage.dll": "sha256-xcO4wZtFwM5I9DIZf1sZpOdcsaTjw1HyqJ5AWciMDAk=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-rtkwhICTsYE9Dtvit4qmKukHxhcBii8IGbm5icnCWbM=",
       "Microsoft.AspNetCore.Components.dll": "sha256-Qv8HUc4bc7hrinChcgqA5WvNTVXrGrA7KqK+y9K08KM=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-OBwQa9gr6aP+n\/xh7tnGjONUh7W1qym12VKXdPnpyUI=",
@@ -198,15 +199,15 @@
       "mscorlib.dll": "sha256-1LEP8nUca7i3KzI4Zu9AD7rJ8CadngV0YUKjoHGiFxA=",
       "netstandard.dll": "sha256-+zXQN9625IUa11YLU5hNoQ04oHjCwFIJAXc8vOEMniU=",
       "System.Private.CoreLib.dll": "sha256-oytzvvuRkpVGZxuLwt9SR8n1KJzGeYroKTHxk0oZvfI=",
-      "Novo.Shared.dll": "sha256-ZVV91vedxDIuLp232D5FLdsIet6HVqBC5T3QAZrAH\/M=",
-      "Novo.Client.dll": "sha256-L07qf1eWjbibCsfB5cd4iGijOOUQYqz5GZTTRDEq6ak="
+      "Novo.Shared.dll": "sha256-rUVZdZFlHCre65BaiNWlu3JyStiYcjnU+bo\/Rtc+yKg=",
+      "Novo.Client.dll": "sha256-U3Q1g7ICUwRTER\/imUz4wPIVRI7i\/gTp5J0EfPrQzq8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Novo.Shared.pdb": "sha256-9WuhXQSpQr6WBn2+aGxyc2KdF4WQ0AqOWBZsJz3M1NI=",
-      "Novo.Client.pdb": "sha256-XbrHId\/Goeb+1c6chc8NGVd5xpu79jQMIy+HRkY+cmo="
+      "Novo.Shared.pdb": "sha256-ofpyi3Mq16xYoqwIetatjRg0TddLFi75XL0uIZHj5IU=",
+      "Novo.Client.pdb": "sha256-upPlDpw7DFpgNj\/4IK8r9Ikehcke9Fp6obBqqnqsc7A="
     },
     "runtime": {
       "dotnet.7.0.13.z7sikgcpy5.js": "sha256-eRbsSkKiWKWKcMiqy13LuLSBIpzmn52qw\/6SX+1jNQ0=",

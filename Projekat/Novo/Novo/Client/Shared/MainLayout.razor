@@ -1,5 +1,9 @@
-﻿@inherits LayoutComponentBase
-
+﻿@using Blazored.LocalStorage;
+@inherits LayoutComponentBase
+@implements IDisposable
+@inject ICartService cartService
+@inject ILocalStorageService localStorageService
+@inject NavigationManager navigationManager
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -7,7 +11,19 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <div class="p-3">
+                <button class="btn btn-outline-danger position-relative" @onclick="NavigateToCart">
+                    <span class="oi oi-cart"></span>
+                    Cart
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-1">
+                        @{
+                            int ServiceCount = cartService.Count > 0 ? cartService.Count : ServiceCountProduct;
+                        }
+                        @ServiceCount
+                        <span class="visually-hidden">unread message</span>
+                    </span>                   
+                </button>
+            </div>
         </div>
 
         <article class="content px-4">
@@ -15,3 +31,22 @@
         </article>
     </main>
 </div>
+
+@code{
+    int ServiceCountProduct;
+    protected override async Task OnInitializedAsync()
+    {
+        cartService.OnChange += StateHasChanged;
+        ServiceCountProduct = (await localStorageService.GetItemAsync<List<MyCartModel>>("MyCart")).Count();
+    }
+
+    public void Dispose()
+    {
+        cartService.OnChange -= StateHasChanged;
+    }
+
+    private void NavigateToCart()
+    {
+        navigationManager.NavigateTo("cart");
+    }
+}

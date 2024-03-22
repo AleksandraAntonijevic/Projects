@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "67b08xLsqVMN2WINwPS5PWob2fEee5qbqohcYWzBwXTFvlL8X9PKH6OSufZyUtiOF4qmBKRX7TI7Rzo10Cq0ow==",
+  "dgSpecHash": "hAZHFsgTjlg6pUTjUHZkPc25/mcL4W6nAarVp7PrVhaUJJEf8R86bFEKdgX+FYQKmxKeC7Leb298wHR6NQqKGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Blazor\\Projekat\\Novo\\Novo\\Server\\Novo.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",
